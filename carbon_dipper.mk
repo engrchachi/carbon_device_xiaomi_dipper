@@ -8,7 +8,7 @@ $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common CarbonROM stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
-$(call inherit-product, vendor/carbon/config/gsm.
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := carbon_dipper
